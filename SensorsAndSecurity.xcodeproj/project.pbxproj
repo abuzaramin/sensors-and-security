@@ -3,27 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		171B626D2641DD6E00DC838E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171B626C2641DD6E00DC838E /* AppDelegate.swift */; };
-		171B626F2641DD6E00DC838E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171B626E2641DD6E00DC838E /* SceneDelegate.swift */; };
 		171B62712641DD6E00DC838E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171B62702641DD6E00DC838E /* ViewController.swift */; };
 		171B62742641DD6E00DC838E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 171B62722641DD6E00DC838E /* Main.storyboard */; };
 		171B62762641DD7000DC838E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 171B62752641DD7000DC838E /* Assets.xcassets */; };
 		171B62792641DD7000DC838E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 171B62772641DD7000DC838E /* LaunchScreen.storyboard */; };
+		171B62812641E13900DC838E /* GyroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171B62802641E13900DC838E /* GyroViewController.swift */; };
+		1737FF9C2643FCFF001F0A39 /* GoogleMobileAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1737FF9B2643FCFF001F0A39 /* GoogleMobileAds.xcframework */; };
+		1737FF9E2643FD08001F0A39 /* GoogleAppMeasurement.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1737FF9D2643FD08001F0A39 /* GoogleAppMeasurement.xcframework */; };
+		1748D1AB2642EFB600C10300 /* AccelerometerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748D1AA2642EFB600C10300 /* AccelerometerViewController.swift */; };
+		1748D1AD2642F18400C10300 /* MagnetometerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748D1AC2642F18400C10300 /* MagnetometerViewController.swift */; };
+		175A51A62644259F008AE836 /* FingerPrintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175A51A52644259F008AE836 /* FingerPrintViewController.swift */; };
+		D51AFE779A5F37C6FEC09BF2 /* Pods_SensorsAndSecurity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 753067AA43EC784777ADC745 /* Pods_SensorsAndSecurity.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		171B62692641DD6E00DC838E /* SensorsAndSecurity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SensorsAndSecurity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		171B626C2641DD6E00DC838E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		171B626E2641DD6E00DC838E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		171B62702641DD6E00DC838E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		171B62732641DD6E00DC838E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		171B62752641DD7000DC838E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		171B62782641DD7000DC838E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		171B627A2641DD7000DC838E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		171B62802641E13900DC838E /* GyroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroViewController.swift; sourceTree = "<group>"; };
+		1737FF9B2643FCFF001F0A39 /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleMobileAds.xcframework; path = "Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.xcframework"; sourceTree = "<group>"; };
+		1737FF9D2643FD08001F0A39 /* GoogleAppMeasurement.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleAppMeasurement.xcframework; path = Pods/GoogleAppMeasurement/Frameworks/GoogleAppMeasurement.xcframework; sourceTree = "<group>"; };
+		1748D1AA2642EFB600C10300 /* AccelerometerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerometerViewController.swift; sourceTree = "<group>"; };
+		1748D1AC2642F18400C10300 /* MagnetometerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnetometerViewController.swift; sourceTree = "<group>"; };
+		175A51A52644259F008AE836 /* FingerPrintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingerPrintViewController.swift; sourceTree = "<group>"; };
+		753067AA43EC784777ADC745 /* Pods_SensorsAndSecurity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SensorsAndSecurity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB66125B833419E4BDD577C6 /* Pods-SensorsAndSecurity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SensorsAndSecurity.release.xcconfig"; path = "Target Support Files/Pods-SensorsAndSecurity/Pods-SensorsAndSecurity.release.xcconfig"; sourceTree = "<group>"; };
+		DBBBBD3E48A97B52DBF4B242 /* Pods-SensorsAndSecurity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SensorsAndSecurity.debug.xcconfig"; path = "Target Support Files/Pods-SensorsAndSecurity/Pods-SensorsAndSecurity.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1737FF9E2643FD08001F0A39 /* GoogleAppMeasurement.xcframework in Frameworks */,
+				1737FF9C2643FCFF001F0A39 /* GoogleMobileAds.xcframework in Frameworks */,
+				D51AFE779A5F37C6FEC09BF2 /* Pods_SensorsAndSecurity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +59,8 @@
 			children = (
 				171B626B2641DD6E00DC838E /* SensorsAndSecurity */,
 				171B626A2641DD6E00DC838E /* Products */,
+				3711FD0D75AB3864B042E1E2 /* Pods */,
+				B94FE4CB8ABF0530790B4F8A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +75,11 @@
 		171B626B2641DD6E00DC838E /* SensorsAndSecurity */ = {
 			isa = PBXGroup;
 			children = (
+				175A51A52644259F008AE836 /* FingerPrintViewController.swift */,
+				171B62802641E13900DC838E /* GyroViewController.swift */,
+				1748D1AA2642EFB600C10300 /* AccelerometerViewController.swift */,
+				1748D1AC2642F18400C10300 /* MagnetometerViewController.swift */,
 				171B626C2641DD6E00DC838E /* AppDelegate.swift */,
-				171B626E2641DD6E00DC838E /* SceneDelegate.swift */,
 				171B62702641DD6E00DC838E /* ViewController.swift */,
 				171B62722641DD6E00DC838E /* Main.storyboard */,
 				171B62752641DD7000DC838E /* Assets.xcassets */,
@@ -67,6 +89,25 @@
 			path = SensorsAndSecurity;
 			sourceTree = "<group>";
 		};
+		3711FD0D75AB3864B042E1E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBBBBD3E48A97B52DBF4B242 /* Pods-SensorsAndSecurity.debug.xcconfig */,
+				BB66125B833419E4BDD577C6 /* Pods-SensorsAndSecurity.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B94FE4CB8ABF0530790B4F8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1737FF9D2643FD08001F0A39 /* GoogleAppMeasurement.xcframework */,
+				1737FF9B2643FCFF001F0A39 /* GoogleMobileAds.xcframework */,
+				753067AA43EC784777ADC745 /* Pods_SensorsAndSecurity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +115,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 171B627D2641DD7000DC838E /* Build configuration list for PBXNativeTarget "SensorsAndSecurity" */;
 			buildPhases = (
+				3A37CF21CFC8E286801824FB /* [CP] Check Pods Manifest.lock */,
 				171B62652641DD6E00DC838E /* Sources */,
 				171B62662641DD6E00DC838E /* Frameworks */,
 				171B62672641DD6E00DC838E /* Resources */,
+				35BC23DFC3880171148461DC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +176,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		35BC23DFC3880171148461DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SensorsAndSecurity/Pods-SensorsAndSecurity-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SensorsAndSecurity/Pods-SensorsAndSecurity-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SensorsAndSecurity/Pods-SensorsAndSecurity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A37CF21CFC8E286801824FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SensorsAndSecurity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		171B62652641DD6E00DC838E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				171B62712641DD6E00DC838E /* ViewController.swift in Sources */,
+				1748D1AD2642F18400C10300 /* MagnetometerViewController.swift in Sources */,
 				171B626D2641DD6E00DC838E /* AppDelegate.swift in Sources */,
-				171B626F2641DD6E00DC838E /* SceneDelegate.swift in Sources */,
+				1748D1AB2642EFB600C10300 /* AccelerometerViewController.swift in Sources */,
+				171B62812641E13900DC838E /* GyroViewController.swift in Sources */,
+				175A51A62644259F008AE836 /* FingerPrintViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +304,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +358,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,6 +370,85 @@
 		};
 		171B627E2641DD7000DC838E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBBBBD3E48A97B52DBF4B242 /* Pods-SensorsAndSecurity.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EG83GDTSK2;
+				INFOPLIST_FILE = SensorsAndSecurity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"FBLPromises\"",
+					"-framework",
+					"\"GoogleAppMeasurement\"",
+					"-framework",
+					"\"GoogleMobileAds\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UserMessagingPlatform\"",
+					"-framework",
+					"\"WebKit\"",
+					"-framework",
+					"\"nanopb\"",
+					"-weak_framework",
+					"\"AdSupport\"",
+					"-weak_framework",
+					"\"JavaScriptCore\"",
+					"-weak_framework",
+					"\"SafariServices\"",
+					"-weak_framework",
+					"\"WebKit\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abuzar.SensorsAndSecurity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		171B627F2641DD7000DC838E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB66125B833419E4BDD577C6 /* Pods-SensorsAndSecurity.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,23 +458,62 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.abuzar.SensorsAndSecurity;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		171B627F2641DD7000DC838E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = EG83GDTSK2;
-				INFOPLIST_FILE = SensorsAndSecurity/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
+				OTHER_LDFLAGS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"FBLPromises\"",
+					"-framework",
+					"\"GoogleAppMeasurement\"",
+					"-framework",
+					"\"GoogleMobileAds\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UserMessagingPlatform\"",
+					"-framework",
+					"\"WebKit\"",
+					"-framework",
+					"\"nanopb\"",
+					"-weak_framework",
+					"\"AdSupport\"",
+					"-weak_framework",
+					"\"JavaScriptCore\"",
+					"-weak_framework",
+					"\"SafariServices\"",
+					"-weak_framework",
+					"\"WebKit\"",
+					"-ObjC",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.abuzar.SensorsAndSecurity;
 				PRODUCT_NAME = "$(TARGET_NAME)";

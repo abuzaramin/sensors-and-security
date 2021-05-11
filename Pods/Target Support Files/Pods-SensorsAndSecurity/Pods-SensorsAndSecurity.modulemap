@@ -1,0 +1,6 @@
+framework module Pods_SensorsAndSecurity {
+  umbrella header "Pods-SensorsAndSecurity-umbrella.h"
+
+  export *
+  module * { export * }
+}
